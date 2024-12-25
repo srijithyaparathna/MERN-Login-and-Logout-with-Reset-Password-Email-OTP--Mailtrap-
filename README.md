@@ -3,6 +3,7 @@
 This project is a React-based application for user authentication, password management, and a dashboard interface. The app includes features like user signup, login, email verification, password reset, and access to a protected dashboard for authenticated users.
 
 ## Features
+![image](https://github.com/user-attachments/assets/1b5b5ea2-68fd-411a-a654-f1d353be9927)
 
 - **User Authentication**: Secure login and signup functionality with protected routes.
 - **Email Verification**: Users must verify their email before accessing the dashboard.
@@ -13,6 +14,7 @@ This project is a React-based application for user authentication, password mana
   - Redirects unauthenticated users to the login page when trying to access protected routes.
 - **Responsive UI**: Includes floating shapes and a gradient background for a modern, aesthetic design.
 - **Toast Notifications**: Displays notifications for user actions.
+![image](https://github.com/user-attachments/assets/b17e671c-d83f-4399-8090-d8ceb5ab63fd)
 
 ## Tech Stack
 
@@ -20,6 +22,7 @@ This project is a React-based application for user authentication, password mana
 - **State Management**: Custom authentication store (e.g., Zustand, Context API)
 - **Styling**: Tailwind CSS
 - **Notifications**: `react-hot-toast`
+![image](https://github.com/user-attachments/assets/30161e64-7195-4489-9411-c447e3875c51)
 
 ## Installation
 
@@ -34,11 +37,13 @@ Copy code
 cd authentication-dashboard-app
 npm install
 Start the development server:
+![image](https://github.com/user-attachments/assets/7d45bc1e-57f9-4a40-a90e-2f4c378b5799)
 
 bash
 Copy code
 npm start
 Open your browser and visit http://localhost:3000.
+![image](https://github.com/user-attachments/assets/9c3988c0-d325-4741-99f5-022a67aa6565)
 
 Folder Structure
 bash
@@ -50,6 +55,8 @@ src/
 ├── App.js            # Main application component with routing
 ├── index.js          # Entry point for the React application
 Usage
+![image](https://github.com/user-attachments/assets/63de8e2c-fd4f-40a3-97ba-f209a0e3f24e)
+
 Authentication Flow
 Signup: New users can sign up at /signup.
 Login: Users log in at /login.
